@@ -1,4 +1,4 @@
-package Chapter2.WeatherStation;
+package Chapter2;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
