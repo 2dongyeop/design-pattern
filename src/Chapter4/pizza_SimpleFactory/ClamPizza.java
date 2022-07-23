@@ -1,4 +1,4 @@
-package Chapter4.pizzas;
+package Chapter4.pizza_SimpleFactory;
 
 public class ClamPizza extends Pizza {
     public ClamPizza() {
