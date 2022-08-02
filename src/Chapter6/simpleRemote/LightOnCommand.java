@@ -1,4 +1,4 @@
-package Chapter6.simpleRemoteWL;
+package Chapter6.simpleRemote;
 
 public class LightOnCommand implements Command {
     Light light;
