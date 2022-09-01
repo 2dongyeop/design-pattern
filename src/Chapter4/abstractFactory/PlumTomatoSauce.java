@@ -1,4 +1,4 @@
-package Chapter4.Pizza_AbtractFactory;
+package Chapter4.abstractFactory;
 
 public class PlumTomatoSauce implements Sauce {
     public String toString() {

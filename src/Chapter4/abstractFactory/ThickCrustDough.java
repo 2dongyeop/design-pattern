@@ -1,4 +1,4 @@
-package Chapter4.Pizza_AbtractFactory;
+package Chapter4.abstractFactory;
 
 public class ThickCrustDough implements Dough {
     public String toString() {

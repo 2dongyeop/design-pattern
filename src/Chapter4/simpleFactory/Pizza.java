@@ -1,4 +1,4 @@
-package Chapter4.pizza_SimpleFactory;
+package Chapter4.simpleFactory;
 
 import java.util.ArrayList;
 import java.util.List;
