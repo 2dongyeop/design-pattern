@@ -1,5 +1,7 @@
 package Chapter9.dinerMerger;
 
+import java.util.Iterator;
+
 public class DinerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
@@ -36,15 +38,13 @@ public class DinerMenu implements Menu {
         }
     }
 
-    public MenuItem[] getMenuItems() {
-        return menuItems;
-    }
+//    Iterator 사용 전 get 방식
+//    public MenuItem[] getMenuItems() {
+//        return menuItems;
+//    }
 
-    public DinerMenuIterator createIterator() {
+    public Iterator createIterator() {
         return new DinerMenuIterator(menuItems);
-        // To test Alternating menu items, comment out above line,
-        // and uncomment the line below.
-        //return new AlternatingDinerMenuIterator(menuItems);
     }
 
     // other menu methods here
