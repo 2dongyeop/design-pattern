@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Observer;
 
 public class Observable implements QuackObservable {
-    List<Observer> observers = new ArrayList<>();
+    List<Chapter12.combining.Observer> observers = new ArrayList<>();
     QuackObservable duck;
 
     public Observable(QuackObservable duck) {
@@ -14,7 +14,7 @@ public class Observable implements QuackObservable {
     }
 
     @Override
-    public void registerObserver(Observer observer) {
+    public void registerObserver(Chapter12.combining.Observer observer) {
         observers.add(observer);
     }
 
@@ -23,7 +23,7 @@ public class Observable implements QuackObservable {
         Iterator iterator = observers.iterator();
 
         while (iterator.hasNext()) {
-            Observer observer = (Observer) iterator.next();
+            Chapter12.combining.Observer observer = (Chapter12.combining.Observer) iterator.next();
             observer.update(duck);
         }
     }

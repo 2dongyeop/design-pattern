@@ -1,7 +1,5 @@
 package Chapter12.combining;
 
-import java.util.Observer;
-
 public class MallardDuck implements Quackable {
     Observable observable;
 
