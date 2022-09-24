@@ -159,7 +159,7 @@
 
 <br/>
 
-12징 : [컴포지트 패턴](https://leedongyeop.notion.site/Chapter12-2a89fbd05e4e45c2899f84e3a9948f97)
+12징 : [컴파운드 패턴](https://leedongyeop.notion.site/Chapter12-2a89fbd05e4e45c2899f84e3a9948f97)
 - 객체지향 패턴
     - 복합 패턴
         - 2개 이상의 패턴을 결합해서 일반적으로 자주 등장하는 문제들의 해법을 제공한다.
