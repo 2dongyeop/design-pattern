@@ -3,6 +3,10 @@
 
 ----
 
+> 디자인 패턴을 적용해 콘솔을 통해 입출력을 하는 [간단한 프로젝트](https://github.com/2dongyeop/cafe-ordering-system)입니다.
+
+<br/>
+
 ### 챕터별 내용 정리
 1장 : [디자인 패턴 소개와 전략 패턴](https://leedongyeop.notion.site/Chapter-01-fa26caeaa0614910a3dacf1e02c75aec)
 - **전략 패턴이란?** 
